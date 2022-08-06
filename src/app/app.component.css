@@ -1,0 +1,39 @@
+.header {
+  background-color: white;
+  margin-top: -8px;
+  margin-left: -16px;
+  margin-right: -16px;
+  padding: 20px;
+  display: flex;
+}
+.sample {
+  flex: 1 1 auto;
+}
+.text {
+  font-size: larger;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.box {
+  margin-left: 20px;
+}
+.menu-icon {
+  color: black;
+  border: none;
+  font-size: 40px;
+}
+.favorite-icon{
+  color: black;
+  border: none;
+  font-size: 40px;
+}
+.share-icon{
+  color: black;
+  border: none;
+  font-size: 40px;
+}
+.product-link{
+  font-size: larger;
+  margin-right: 16px;
+  
+}
