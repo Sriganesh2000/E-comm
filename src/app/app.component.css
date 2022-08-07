@@ -1,10 +1,13 @@
 .header {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin-top: -8px;
   margin-left: -16px;
   margin-right: -16px;
   padding: 20px;
   display: flex;
+}
+.bar {
+  background-color: rgb(255, 255, 255);
 }
 .sample {
   flex: 1 1 auto;
@@ -18,22 +21,29 @@
   margin-left: 20px;
 }
 .menu-icon {
+  background-color: white;
   color: black;
   border: none;
   font-size: 40px;
+  cursor: pointer;
 }
-.favorite-icon{
+.favorite-icon {
+  background-color: white;
   color: black;
   border: none;
   font-size: 40px;
+  cursor: pointer;
 }
-.share-icon{
+.share-icon {
+  background-color: white;
   color: black;
   border: none;
   font-size: 40px;
+  cursor: pointer;
 }
-.product-link{
+.product-link {
+  border: none;
   font-size: larger;
   margin-right: 16px;
-  
+  cursor: pointer;
 }

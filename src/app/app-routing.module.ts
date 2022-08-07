@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { RouterModule, Routes } from '@angular/router';
+import { ProductsComponent } from './products/products.component';
 
-import { AppComponent } from './app.component';
+const routes: Routes = [
+  {
+    path: 'products',
+    component: ProductsComponent,
+  },
+];
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent],
-  bootstrap: [AppComponent],
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule],
 })
-export class AppModule {}
+export class AppRoutingModule {}

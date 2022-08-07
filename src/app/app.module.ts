@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
-
+import { ProductsComponent } from './products/products.component';
 @NgModule({
-  imports: [BrowserModule, FormsModule, MatToolbarModule, MatIconModule,  ],
-  declarations: [AppComponent],
+  declarations: [AppComponent, ProductsComponent],
+  imports: [BrowserModule, AppRoutingModule, MatToolbarModule, MatIconModule],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
